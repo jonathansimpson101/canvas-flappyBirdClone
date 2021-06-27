@@ -1,6 +1,4 @@
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	 
-	const canvas = document.getElementById('canvas');
+ 	const canvas = document.getElementById('canvas');
 	const c = canvas.getContext('2d');
 
 	canvas.width = window.innerWidth;
@@ -138,8 +136,6 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 	}
 
 	animate();
-
-}
 
 
 
